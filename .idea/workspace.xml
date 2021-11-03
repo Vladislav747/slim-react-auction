@@ -4,6 +4,13 @@
     <list default="true" id="5b1d32e5-34c0-4465-8a39-4e2c352e2243" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/docker/development/nginx/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/api/docker/development/nginx/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/docker/development/nginx/conf.d/default.conf" beforeDir="false" afterPath="$PROJECT_DIR$/api/docker/common/nginx/conf.d/default.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/docker/development/php-cli/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/api/docker/development/php-cli/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/docker/development/php-fpm/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/api/docker/development/php-fpm/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/docker/development/php-fpm/conf.d/security.ini" beforeDir="false" afterPath="$PROJECT_DIR$/api/docker/common/php/conf.d/security.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/public/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,18 +53,21 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="yaml" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/api/docker/development/php-cli" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/api/docker/development/php-cli" />
+      <recent name="$PROJECT_DIR$/api/docker/common/php" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/provisioning" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api/docker/common/nginx" />
+      <recent name="$PROJECT_DIR$/api/docker/common/php/conf.d" />
       <recent name="$PROJECT_DIR$/provisioning" />
     </key>
   </component>
@@ -74,7 +84,7 @@
       <workItem from="1635324873925" duration="190000" />
       <workItem from="1635326227276" duration="605000" />
       <workItem from="1635864883518" duration="1990000" />
-      <workItem from="1635921494927" duration="5522000" />
+      <workItem from="1635921494927" duration="11681000" />
     </task>
     <task id="LOCAL-00001" summary="yep">
       <created>1635874352845</created>
@@ -90,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635939332923</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="start">
+      <created>1635941054044</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1635941054044</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

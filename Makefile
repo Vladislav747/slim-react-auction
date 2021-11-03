@@ -19,7 +19,7 @@ build-frontend:
 	docker --log-level=debug build --pull --file=gateway/docker/production/nginx/Dockerfile --tag=${REGISTRY}/auction-frontend:${IMAGE}
 
 build-api:
-	docker --log-level=debug build --pull --file=gateway/docker/production/nginx/Dockerfile --tag=${REGISTRY}/auction-frontend:${IMAGE}
+	docker --log-level=debug build --pull --file=gateway/docker/production/nginx/Dockerfile --tag=${REGISTRY}/auction-api:${IMAGE}
 
 try-build:
 	REGISTRY=localhost IMAGE_TAG=0 make build
