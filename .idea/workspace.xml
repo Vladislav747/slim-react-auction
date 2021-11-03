@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b1d32e5-34c0-4465-8a39-4e2c352e2243" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/api/docker/development/php-cli/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose-production.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +15,28 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="origin/master" />
+    <option name="OPTIONS">
+      <set>
+        <option value="INTERACTIVE" />
+      </set>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/provisioning/hosts.yml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/docker/development/php-cli/Dockerfile" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/provisioning/site.yml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1zx3nrd4JeqGUnW2u4iOYieILRw" />
   <component name="ProjectViewState">
@@ -26,12 +48,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="yaml" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/api/docker/development/php-cli" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/api/docker/development/php-cli" />
       <recent name="$PROJECT_DIR$/provisioning" />
     </key>
@@ -52,7 +76,7 @@
       <workItem from="1635324873925" duration="190000" />
       <workItem from="1635326227276" duration="605000" />
       <workItem from="1635864883518" duration="1990000" />
-      <workItem from="1635921494927" duration="233000" />
+      <workItem from="1635921494927" duration="3795000" />
     </task>
     <task id="LOCAL-00001" summary="yep">
       <created>1635874352845</created>
