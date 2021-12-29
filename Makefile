@@ -1,3 +1,11 @@
+init:
+	init-ci frontend-ready
+
+init-ci:
+	docker-down-clear \
+	docker-pull docker-build docker-up \
+	api-init frontend-init cucumber-init
+
 docker-up:
 	docker-compose up -d
 
