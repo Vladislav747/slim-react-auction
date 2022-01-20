@@ -1,5 +1,4 @@
-init:
-	init-ci frontend-ready
+init: docker-down docker-pull docker-build docker-up
 
 init-ci:
 	docker-down-clear \
@@ -10,7 +9,10 @@ docker-up:
 	docker-compose up -d
 
 docker-down:
-	docker-compose down
+	docker-compose down --remove-orphans
+
+docker-down-clear:
+	docker-compose down -v --remove-orphans
 
 docker-pull:
 	docker-compose pull

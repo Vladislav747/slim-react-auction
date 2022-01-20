@@ -1,7 +1,5 @@
-FROM php:7.4-fpm-alpine
+FROM nginx:1.17-alpine
 
-RUN mv $PHP_INI_DIR/php.ini-development $PHP_INI_DIR/php.ini
-
-COPY ./common/nginx/conf.d /usr/local/etc/php/conf.d
+COPY ./conf.d /etc/nginx/conf.d
 
 WORKDIR /app

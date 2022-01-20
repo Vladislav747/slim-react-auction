@@ -1,9 +1,31 @@
 version: "3.3"
 services:
+  gateway:
+    build:
+      context: gateway/docker/development/nginx
+    ports:
+      - "8080:8080"
+      - "8081:8081"
+    depends_on:
+      - frontend
+      - api
+
   frontend:
     build:
       context: frontend/docker/development/nginx
-    ports:
-      - "8080:80"
     volumes:
       - ./frontend:/app
+
+  api:
+    build:
+      context: api/docker/development/nginx
+    volumes:
+      - ./api:/app
+    depends_on:
+      - api-php-fpm
+
+  api-php-fpm:
+    build:
+      context: api/docker/development/php-fpm
+    volumes:
+      - ./api:/app
