@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b1d32e5-34c0-4465-8a39-4e2c352e2243" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="5b1d32e5-34c0-4465-8a39-4e2c352e2243" name="Changes" comment="Fixed error with docker">
+      <change afterPath="$PROJECT_DIR$/frontend/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/robots.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/public/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/docker/development/nginx/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docker/development/nginx/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docker/development/nginx/conf.d/default.conf" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docker/development/nginx/conf.d/default.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/docker/development/nginx/conf.d/api.conf" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/docker/development/nginx/conf.d/api.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/docker/development/nginx/conf.d/frontend.conf" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/docker/development/nginx/conf.d/frontend.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +67,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="yaml" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demo-auction" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -74,6 +78,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend" />
       <recent name="$PROJECT_DIR$/api/docker/development/php-cli" />
       <recent name="$PROJECT_DIR$/api/docker/common/php" />
       <recent name="$PROJECT_DIR$" />
@@ -107,6 +112,10 @@
       <workItem from="1639521268835" duration="2196000" />
       <workItem from="1640808296625" duration="182000" />
       <workItem from="1640808528043" duration="2002000" />
+      <workItem from="1642528210877" duration="74000" />
+      <workItem from="1642666397676" duration="1566000" />
+      <workItem from="1642677338348" duration="7000" />
+      <workItem from="1642678319055" duration="1740000" />
     </task>
     <task id="LOCAL-00001" summary="yep">
       <created>1635874352845</created>
@@ -153,6 +162,7 @@
     <MESSAGE value="yep" />
     <MESSAGE value="start" />
     <MESSAGE value="Fix error" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix error" />
+    <MESSAGE value="Fixed error with docker" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed error with docker" />
   </component>
 </project>
