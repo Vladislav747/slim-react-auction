@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b1d32e5-34c0-4465-8a39-4e2c352e2243" name="Changes" comment="ansible">
-      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+    <list default="true" id="5b1d32e5-34c0-4465-8a39-4e2c352e2243" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/api/docker/development/php-cli/conf.d/security.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/docker/production/php-cli/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provisioning/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/provisioning/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provisioning/authorize.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provisioning/authorize.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provisioning/site.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provisioning/site.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provisioning/tasks/setup_docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provisioning/tasks/setup_docker.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/docker/development/php-cli/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/api/docker/development/php-cli/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +75,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="yaml" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/provisioning" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/api/docker/development/php-cli" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -86,11 +87,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api/docker/development/php-cli" />
+      <recent name="$PROJECT_DIR$/api/docker/production" />
       <recent name="C:\Users\Vlad\Desktop\Web\slim-react-auction\provisioning" />
       <recent name="C:\Users\Vlad\Desktop\Web\slim-react-auction\provisioning\tasks" />
       <recent name="$PROJECT_DIR$/frontend" />
-      <recent name="$PROJECT_DIR$/api/docker/development/php-cli" />
-      <recent name="$PROJECT_DIR$/api/docker/common/php" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/api/docker/common/nginx" />
@@ -98,15 +99,22 @@
       <recent name="$PROJECT_DIR$/provisioning" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Makefile Target.docker-down-clear">
     <configuration name="authorize" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
       <makefile filename="$PROJECT_DIR$/provisioning/Makefile" target="authorize" workingDirectory="" arguments="">
         <envs />
       </makefile>
       <method v="2" />
     </configuration>
+    <configuration name="docker-down-clear" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="docker-down-clear" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Makefile Target.docker-down-clear" />
         <item itemvalue="Makefile Target.authorize" />
       </list>
     </recent_temporary>
@@ -203,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645282481367</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="ansible fix">
+      <created>1645289955410</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1645289955410</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,7 +241,8 @@
     <MESSAGE value="Fix error" />
     <MESSAGE value="Fixed error with docker" />
     <MESSAGE value="ansible" />
-    <option name="LAST_COMMIT_MESSAGE" value="ansible" />
+    <MESSAGE value="ansible fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="ansible fix" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -23,9 +23,16 @@ services:
       - ./api:/app
     depends_on:
       - api-php-fpm
+      - api-php-cli
 
   api-php-fpm:
     build:
       context: api/docker/development/php-fpm
+    volumes:
+      - ./api:/app
+
+  api-php-cli:
+    build:
+      context: api/docker/development/php-cli
     volumes:
       - ./api:/app
