@@ -1,6 +1,11 @@
 docker-compose run --rm api-php-cli composer create-project slim/slim-skeleton slim
 sudo rm -rf api/slim
 docker-compose run --rm api-php-cli composer init
+docker-compose run --rm api-php-cli composer require php
+docker-compose run --rm api-php-cli composer require slim/slim slim/psr7
+docker-compose run --rm api-php-cli composer dump-autoload
+docker-compose run --rm api-php-cli composer require ext-json
+
 docker-compose exec api-php-cli composer create-project slim/slim-sketeton slim
 
 ### make {command_from_makefile}
