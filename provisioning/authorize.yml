@@ -6,4 +6,4 @@
     - name: Add user authorzied key
       authorized_key:
         user: deploy
-        key: "{{ lookup('file', '~/.ssh/id_rsa.pub') }}
+        key: "{{ lookup('file', '~/.ssh/id_rsa.pub') }}"

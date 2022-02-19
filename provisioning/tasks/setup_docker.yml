@@ -1,16 +1,16 @@
 - name: Update apt packages
-    apt:
-      update_cache: yes
+  apt:
+    update_cache: yes
 
 - name: Install dependencies
-    apt:
-      name:
-        - apt-transport-https
-        - ca-certificates
-        - curl
-        - software-properties-common
-      state: present
-      update_cache: yes
+  apt:
+    name:
+      - apt-transport-https
+      - ca-certificates
+      - curl
+      - software-properties-common
+    state: present
+    update_cache: yes
 
 - name: Add GPG key
   apt:
