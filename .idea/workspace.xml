@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b1d32e5-34c0-4465-8a39-4e2c352e2243" name="Changes" comment="ansible">
-      <change afterPath="$PROJECT_DIR$/provisioning/envs/certbot.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provisioning/renew-certificates.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provisioning/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provisioning/authorize.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provisioning/docker-login.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provisioning/site.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provisioning/site.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provisioning/tasks/generate_certificates.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provisioning/tasks/generate_certificates.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provisioning/tasks/setup_docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provisioning/tasks/setup_docker.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,10 +71,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Vlad\Desktop\Web\slim-react-auction\provisioning" />
+      <recent name="C:\Users\Vlad\Desktop\Web\slim-react-auction\provisioning\tasks" />
       <recent name="$PROJECT_DIR$/frontend" />
       <recent name="$PROJECT_DIR$/api/docker/development/php-cli" />
       <recent name="$PROJECT_DIR$/api/docker/common/php" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/api/docker/common/nginx" />
@@ -110,7 +109,7 @@
       <workItem from="1642677338348" duration="7000" />
       <workItem from="1642678319055" duration="5092000" />
       <workItem from="1645033159282" duration="6314000" />
-      <workItem from="1645276564672" duration="5224000" />
+      <workItem from="1645276564672" duration="8053000" />
     </task>
     <task id="LOCAL-00001" summary="yep">
       <created>1635874352845</created>
@@ -168,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645277225994</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ansible">
+      <created>1645282481367</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1645282481367</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
