@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b1d32e5-34c0-4465-8a39-4e2c352e2243" name="Changes" comment="">
+    <list default="true" id="5b1d32e5-34c0-4465-8a39-4e2c352e2243" name="Changes" comment="ansible">
+      <change afterPath="$PROJECT_DIR$/gateway/docker/common/nginx/snippets/certbot.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/docker/common/nginx/snippets/ssl.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provisioning/files/cli.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provisioning/hosts.yml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provisioning/tasks/generate_certificates.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provisioning/tasks/setup_certbot.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provisioning/tasks/setup_docker.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provisioning/hosts.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provisioning/hosts.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provisioning/site.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provisioning/site.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +61,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="yaml" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/provisioning" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -68,11 +73,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Vlad\Desktop\Web\slim-react-auction\provisioning" />
       <recent name="$PROJECT_DIR$/frontend" />
       <recent name="$PROJECT_DIR$/api/docker/development/php-cli" />
       <recent name="$PROJECT_DIR$/api/docker/common/php" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/provisioning" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/api/docker/common/nginx" />
@@ -106,7 +111,8 @@
       <workItem from="1642666397676" duration="1566000" />
       <workItem from="1642677338348" duration="7000" />
       <workItem from="1642678319055" duration="5092000" />
-      <workItem from="1645033159282" duration="2725000" />
+      <workItem from="1645033159282" duration="6314000" />
+      <workItem from="1645276564672" duration="637000" />
     </task>
     <task id="LOCAL-00001" summary="yep">
       <created>1635874352845</created>
@@ -150,17 +156,37 @@
       <option name="project" value="LOCAL" />
       <updated>1642681633091</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ansible">
+      <created>1645137116858</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1645137116858</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="yep" />
     <MESSAGE value="start" />
     <MESSAGE value="Fix error" />
     <MESSAGE value="Fixed error with docker" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed error with docker" />
+    <MESSAGE value="ansible" />
+    <option name="LAST_COMMIT_MESSAGE" value="ansible" />
   </component>
 </project>

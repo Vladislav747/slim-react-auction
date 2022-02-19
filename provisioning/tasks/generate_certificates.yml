@@ -1,0 +1,14 @@
+---
+- name: Check if certificate already exists
+  stat:
+    path: /etc/letsencrypt/live/{{item}}/cert.perm
+  register: letsencrypt_certs
+  with_items: "{{ certbot_hosts }}"
+
+- name: Generate new certificate
+  stat:
+    path: /etc/letsencrypt/live/{{item}}/cert.perm
+  register: letsencrypt_certs
+  with_items: "{{ letsencrypt_certs.results }}"
+  when: not item.stat.exists
+
