@@ -1,0 +1,3 @@
+certbot_email: zippo585@gmail.com
+certbot_hosts:
+  - 77.223.96.160

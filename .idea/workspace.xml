@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b1d32e5-34c0-4465-8a39-4e2c352e2243" name="Changes" comment="ansible">
-      <change afterPath="$PROJECT_DIR$/gateway/docker/common/nginx/snippets/certbot.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/docker/common/nginx/snippets/ssl.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provisioning/files/cli.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provisioning/hosts.yml.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provisioning/tasks/generate_certificates.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provisioning/tasks/setup_certbot.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provisioning/tasks/setup_docker.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provisioning/envs/certbot.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provisioning/renew-certificates.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provisioning/site.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provisioning/site.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provisioning/tasks/generate_certificates.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provisioning/tasks/generate_certificates.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provisioning/tasks/setup_docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provisioning/tasks/setup_docker.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +110,7 @@
       <workItem from="1642677338348" duration="7000" />
       <workItem from="1642678319055" duration="5092000" />
       <workItem from="1645033159282" duration="6314000" />
-      <workItem from="1645276564672" duration="637000" />
+      <workItem from="1645276564672" duration="5224000" />
     </task>
     <task id="LOCAL-00001" summary="yep">
       <created>1635874352845</created>
@@ -163,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645137116858</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ansible">
+      <created>1645277225994</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1645277225994</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
