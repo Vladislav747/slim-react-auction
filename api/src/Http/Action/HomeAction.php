@@ -27,7 +27,7 @@ class HomeAction implements RequestHandlerInterface
 //    $response = $this->factory->createResponse();
 //    $response->getBody()->write(json_encode(new \stdClass(), JSON_THROW_ON_ERROR, 512));
 //    return $response->withHeader('Content-Type', 'application/json');
-    return new JsonResponse(new stdClass());
+    return new JsonResponse([]);
   }
 
 
