@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b1d32e5-34c0-4465-8a39-4e2c352e2243" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/api/config/routes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/Http/JsonResponse.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/slim-react-auction.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/slim-react-auction.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/config/dependencies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/config/middleware.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/Http/Action/HomeAction.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/Http/Action/HomeAction.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/Http/Http.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +174,7 @@
       <workItem from="1645033159282" duration="6314000" />
       <workItem from="1645276564672" duration="8053000" />
       <workItem from="1645308950534" duration="3862000" />
-      <workItem from="1645344991340" duration="805000" />
+      <workItem from="1645344991340" duration="2799000" />
     </task>
     <task id="LOCAL-00001" summary="yep">
       <created>1635874352845</created>
@@ -257,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645295545514</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Updated Slim and Symfony Console">
+      <created>1645345824129</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1645345824129</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,7 +285,8 @@
     <MESSAGE value="ansible" />
     <MESSAGE value="ansible fix" />
     <MESSAGE value="Настраивал composer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Настраивал composer" />
+    <MESSAGE value="Updated Slim and Symfony Console" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Slim and Symfony Console" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
