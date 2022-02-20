@@ -5,20 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b1d32e5-34c0-4465-8a39-4e2c352e2243" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/api/src/Http/Action/HomeAction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/Http/Http.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/config/routes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/Http/JsonResponse.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/slim-react-auction.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/slim-react-auction.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/Http/Action/HomeAction.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/Http/Action/HomeAction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/Http/Http.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true">
+    <pharConfigPath>$PROJECT_DIR$/api/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="EditorConfigPreviewManager">
@@ -70,6 +72,27 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/api/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/api/vendor/slim/slim" />
+      <path value="$PROJECT_DIR$/api/vendor/psr/http-server-middleware" />
+      <path value="$PROJECT_DIR$/api/vendor/slim/psr7" />
+      <path value="$PROJECT_DIR$/api/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/api/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/api/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/api/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/api/vendor/psr/http-server-handler" />
+      <path value="$PROJECT_DIR$/api/vendor/php-di/invoker" />
+      <path value="$PROJECT_DIR$/api/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/api/vendor/php-di/php-di" />
+      <path value="$PROJECT_DIR$/api/vendor/php-di/phpdoc-reader" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/api/vendor/composer" />
+      <path value="$PROJECT_DIR$/api/vendor/fig/http-message-util" />
+      <path value="$PROJECT_DIR$/api/vendor/ralouphie/getallheaders" />
+    </include_path>
+  </component>
   <component name="ProjectId" id="1zx3nrd4JeqGUnW2u4iOYieILRw" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -99,9 +122,11 @@
       <recent name="$PROJECT_DIR$/frontend" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api/src/Http" />
+      <recent name="$PROJECT_DIR$/api/src" />
+      <recent name="$PROJECT_DIR$/api/src/Http/Action" />
       <recent name="$PROJECT_DIR$/api/docker/common/nginx" />
       <recent name="$PROJECT_DIR$/api/docker/common/php/conf.d" />
-      <recent name="$PROJECT_DIR$/provisioning" />
     </key>
   </component>
   <component name="RunManager" selected="Makefile Target.docker-down-clear">
@@ -152,6 +177,8 @@
       <workItem from="1642678319055" duration="5092000" />
       <workItem from="1645033159282" duration="6314000" />
       <workItem from="1645276564672" duration="8053000" />
+      <workItem from="1645308950534" duration="3862000" />
+      <workItem from="1645344991340" duration="805000" />
     </task>
     <task id="LOCAL-00001" summary="yep">
       <created>1635874352845</created>

@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/slim/slim" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/psr/http-server-middleware" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/slim/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/nikic/fast-route" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/psr/http-server-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/php-di/invoker" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/opis/closure" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/php-di/php-di" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/php-di/phpdoc-reader" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/fig/http-message-util" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/ralouphie/getallheaders" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="frontend" />
