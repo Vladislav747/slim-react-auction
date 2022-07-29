@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b1d32e5-34c0-4465-8a39-4e2c352e2243" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/api/bin/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/config/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/config/common/console.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/config/common/system.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/config/container.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/Console/HelloCommand.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/slim-react-auction.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/slim-react-auction.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/docker/development/php-fpm/conf.d/xdebug.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/config/dependencies.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/dependencies.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/Http/Action/HomeAction.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/Http/Action/HomeAction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/docker/development/php-fpm/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/api/docker/development/php-fpm/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,21 +48,17 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/api/docker/development/nginx/Dockerfile" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/api/docker/common/nginx/conf.d/default.conf" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/api/vendor/php-di/php-di/src/ContainerBuilder.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/api/docker/common/php/conf.d/security.ini" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/docker-compose.yml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/api/docker/development/php-fpm/Dockerfile" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Makefile" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/api/public/index.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/api/composer.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/api/docker/production/php-fpm/Dockerfile" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/docker/common/nginx/conf.d/default.conf" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/docker/common/php/conf.d/security.ini" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/docker/development/nginx/Dockerfile" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/api/docker/development/php-cli/Dockerfile" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/docker/development/php-fpm/Dockerfile" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/docker/production/php-fpm/Dockerfile" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/public/index.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/docker-compose.yml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/provisioning/hosts.yml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/api/vendor/composer/autoload_psr4.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/provisioning/site.yml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/api/vendor/composer/autoload_classmap.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -112,21 +98,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="yaml" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/api/docker/development/php-cli" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/melo-work/Web/slim-react-auction",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "Docker",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/api/docker/development/php-cli" />
@@ -136,14 +122,14 @@
       <recent name="$PROJECT_DIR$/frontend" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api/docker/development/php-fpm/conf.d" />
       <recent name="$PROJECT_DIR$/api/src/Http" />
       <recent name="$PROJECT_DIR$/api/src" />
       <recent name="$PROJECT_DIR$/api/src/Http/Action" />
       <recent name="$PROJECT_DIR$/api/docker/common/nginx" />
-      <recent name="$PROJECT_DIR$/api/docker/common/php/conf.d" />
     </key>
   </component>
-  <component name="RunManager" selected="Makefile Target.docker-down-clear">
+  <component name="RunManager">
     <configuration name="authorize" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
       <makefile filename="$PROJECT_DIR$/provisioning/Makefile" target="authorize" workingDirectory="" arguments="">
         <envs />
@@ -156,12 +142,6 @@
       </makefile>
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Makefile Target.docker-down-clear" />
-        <item itemvalue="Makefile Target.authorize" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -193,6 +173,9 @@
       <workItem from="1645276564672" duration="8053000" />
       <workItem from="1645308950534" duration="3862000" />
       <workItem from="1645344991340" duration="8585000" />
+      <workItem from="1658270348763" duration="5000" />
+      <workItem from="1658353246437" duration="599000" />
+      <workItem from="1658992987637" duration="1744000" />
     </task>
     <task id="LOCAL-00001" summary="yep">
       <created>1635874352845</created>
